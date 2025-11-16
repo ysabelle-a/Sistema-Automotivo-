@@ -1,0 +1,14 @@
+com/example/veiculostock/repository/MarcaRepository.class
+com/example/veiculostock/entity/Veiculo.class
+com/example/veiculostock/VeiculoStockApplication.class
+com/example/veiculostock/service/ModeloService.class
+com/example/veiculostock/repository/ModeloRepository.class
+com/example/veiculostock/controller/ModeloController.class
+com/example/veiculostock/repository/VeiculoRepository.class
+com/example/veiculostock/entity/Marca.class
+com/example/veiculostock/service/VeiculoService.class
+com/example/veiculostock/specification/VeiculoSpecification.class
+com/example/veiculostock/controller/MarcaController.class
+com/example/veiculostock/entity/Modelo.class
+com/example/veiculostock/controller/VeiculoController.class
+com/example/veiculostock/service/MarcaService.class

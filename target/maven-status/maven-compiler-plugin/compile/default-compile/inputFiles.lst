@@ -1,0 +1,14 @@
+/workspaces/Sistema-Automotivo-/Sistema-Automotivo-/veiculo-stock-system/src/main/java/com/example/veiculostock/service/MarcaService.java
+/workspaces/Sistema-Automotivo-/Sistema-Automotivo-/veiculo-stock-system/src/main/java/com/example/veiculostock/controller/VeiculoController.java
+/workspaces/Sistema-Automotivo-/Sistema-Automotivo-/veiculo-stock-system/src/main/java/com/example/veiculostock/repository/ModeloRepository.java
+/workspaces/Sistema-Automotivo-/Sistema-Automotivo-/veiculo-stock-system/src/main/java/com/example/veiculostock/repository/MarcaRepository.java
+/workspaces/Sistema-Automotivo-/Sistema-Automotivo-/veiculo-stock-system/src/main/java/com/example/veiculostock/repository/VeiculoRepository.java
+/workspaces/Sistema-Automotivo-/Sistema-Automotivo-/veiculo-stock-system/src/main/java/com/example/veiculostock/entity/Marca.java
+/workspaces/Sistema-Automotivo-/Sistema-Automotivo-/veiculo-stock-system/src/main/java/com/example/veiculostock/entity/Veiculo.java
+/workspaces/Sistema-Automotivo-/Sistema-Automotivo-/veiculo-stock-system/src/main/java/com/example/veiculostock/specification/VeiculoSpecification.java
+/workspaces/Sistema-Automotivo-/Sistema-Automotivo-/veiculo-stock-system/src/main/java/com/example/veiculostock/service/VeiculoService.java
+/workspaces/Sistema-Automotivo-/Sistema-Automotivo-/veiculo-stock-system/src/main/java/com/example/veiculostock/service/ModeloService.java
+/workspaces/Sistema-Automotivo-/Sistema-Automotivo-/veiculo-stock-system/src/main/java/com/example/veiculostock/controller/MarcaController.java
+/workspaces/Sistema-Automotivo-/Sistema-Automotivo-/veiculo-stock-system/src/main/java/com/example/veiculostock/VeiculoStockApplication.java
+/workspaces/Sistema-Automotivo-/Sistema-Automotivo-/veiculo-stock-system/src/main/java/com/example/veiculostock/entity/Modelo.java
+/workspaces/Sistema-Automotivo-/Sistema-Automotivo-/veiculo-stock-system/src/main/java/com/example/veiculostock/controller/ModeloController.java

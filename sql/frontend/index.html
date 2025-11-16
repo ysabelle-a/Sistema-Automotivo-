@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Lista Veículos</title>
+</head>
+<body>
+  <h1>Veículos</h1>
+  <div>
+    Marca: <input id="marca">
+    Modelo: <input id="modelo">
+    MinPreço: <input id="minPreco">
+    MaxPreço: <input id="maxPreco">
+    Ano: <input id="ano">
+    Status: <input id="status">
+    <button onclick="buscar()">Buscar</button>
+  </div>
+  <table border="1" id="tbl">
+    <thead><tr><th>ID</th><th>Marca</th><th>Modelo</th><th>Ano</th><th>Cor</th><th>Preço</th><th>KM</th><th>Status</th></tr></thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    function buscar(){
+      const params = new URLSearchParams();
+      const keys = ['marca','modelo','minPreco','maxPreco','ano','status'];
+      keys.forEach(k=>{
+        const v = document.getElementById(k).value;
+        if(v) params.append(k, v);
+      });
+      fetch('/api/veiculos?' + params.toString())
+        .then(res => res.json())
+        .then(data => {
+          const tbody = document.querySelector('#tbl tbody');
+          tbody.innerHTML = '';
+          (data.content || data).forEach(v=>{
+            const tr = document.createElement('tr');
+            tr.innerHTML = `<td>${v.id}</td><td>${v.modelo.marca.nome}</td><td>${v.modelo.nome}</td><td>${v.ano}</td><td>${v.cor}</td><td>${v.preco}</td><td>${v.quilometragem}</td><td>${v.status}</td>`;
+            tbody.appendChild(tr);
+          });
+        });
+    }
+  </script>
+</body>
+</html>
